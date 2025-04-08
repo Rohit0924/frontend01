@@ -18,7 +18,7 @@ app.use(express.json());
 
 
 
-mongoose.connect('mongodb://127.0.0.1:27017/oggyEcomm')
+mongoose.connect('mongodb+srv://rohitsg2609:z4hoBwMp8z4FWmbO@cluster0.gxr2abk.mongodb.net/?retryWrites=true&w=majority&')
 .then(()=>{
 
     console.log("db is connected")
