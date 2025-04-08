@@ -1,13 +1,13 @@
 const express =  require('express');
 const app = express();
 const mongoose = require('mongoose');
-const {User} = require('./Model/User');
+const {User} = require('./model/User');
 const morgan = require('morgan');
 const cors =require('cors');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const {Product} = require('./Model/Product');
-const {Cart} = require('./Model/Cart');
+const {Product} = require('./model/Product');
+const {Cart} = require('./model/Cart');
 
 //middleware
 app.use(cors());
